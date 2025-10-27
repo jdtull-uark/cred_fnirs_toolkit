@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "cred_fnirs_toolkit"
+version = "0.0.1"
+description = "An automated data processing and analysis pipeline for functional near-infrared spectroscopy (fNIRS) experiments. This project provides tools for preprocessing raw fNIRS signals, artifact removal, hemodynamic response analysis, and generating standardized reports from neuroimaging data. Made by the CRED Lab at the University of Arkansas."
+authors = [
+  { name = "Jeremy Tull" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.10.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["cred_fnirs_toolkit"]
+include = ["pyproject.toml", "cred_fnirs_toolkit/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["cred_fnirs_toolkit"]
+force-sort-within-sections = true
+
