@@ -1,0 +1,674 @@
+[
+  {
+    "channel": 1,
+    "coordinates": {
+      "x": 48.3,
+      "y": 38.3,
+      "z": 33.3
+    },
+    "hemisphere": "Right",
+    "AAL_index": 6,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 8,
+    "detector": 1
+  },
+  {
+    "channel": 2,
+    "coordinates": {
+      "x": 40.3,
+      "y": 48.3,
+      "z": 32.3
+    },
+    "hemisphere": "Right",
+    "AAL_index": 6,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 1,
+    "detector": 4
+  },
+  {
+    "channel": 3,
+    "coordinates": {
+      "x": 31.7,
+      "y": 55.7,
+      "z": 31.7
+    },
+    "hemisphere": "Right",
+    "AAL_index": 6,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 8,
+    "detector": 9
+  },
+  {
+    "channel": 4,
+    "coordinates": {
+      "x": 61.0,
+      "y": 22.7,
+      "z": 21.3
+    },
+    "hemisphere": "Right",
+    "AAL_index": 10,
+    "AAL_label": "IFG, Triangular Part",
+    "region": "Ventrolateral Prefrontal Cortex",
+    "source": 2,
+    "detector": 25
+  },
+  {
+    "channel": 5,
+    "coordinates": {
+      "x": 57.6,
+      "y": 34.3,
+      "z": 20.7
+    },
+    "hemisphere": "Right",
+    "AAL_index": 10,
+    "AAL_label": "IFG, Triangular Part",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 3,
+    "detector": 1
+  },
+  {
+    "channel": 6,
+    "coordinates": {
+      "x": 49.7,
+      "y": 46.3,
+      "z": 20.7
+    },
+    "hemisphere": "Right",
+    "AAL_index": 6,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 2,
+    "detector": 8
+  },
+  {
+    "channel": 7,
+    "coordinates": {
+      "x": 42.3,
+      "y": 56.3,
+      "z": 20.3
+    },
+    "hemisphere": "Right",
+    "AAL_index": 6,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 7,
+    "detector": 5
+  },
+  {
+    "channel": 8,
+    "coordinates": {
+      "x": 33.7,
+      "y": 63.0,
+      "z": 19.0
+    },
+    "hemisphere": "Right",
+    "AAL_index": 4,
+    "AAL_label": "SFG, Dorsolateral",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 6,
+    "detector": 4
+  },
+  {
+    "channel": 9,
+    "coordinates": {
+      "x": 60.0,
+      "y": 27.7,
+      "z": 7.3
+    },
+    "hemisphere": "Right",
+    "AAL_index": 10,
+    "AAL_label": "IFG, Triangular Part",
+    "region": "Ventrolateral Prefrontal Cortex",
+    "source": 3,
+    "detector": 26
+  },
+  {
+    "channel": 10,
+    "coordinates": {
+      "x": 57.0,
+      "y": 38.3,
+      "z": 6.3
+    },
+    "hemisphere": "Right",
+    "AAL_index": 10,
+    "AAL_label": "IFG, Triangular Part",
+    "region": "Ventrolateral Prefrontal Cortex",
+    "source": 2,
+    "detector": 2
+  },
+  {
+    "channel": 11,
+    "coordinates": {
+      "x": 50.0,
+      "y": 51.0,
+      "z": 6.0
+    },
+    "hemisphere": "Right",
+    "AAL_index": 6,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 3,
+    "detector": 7
+  },
+  {
+    "channel": 12,
+    "coordinates": {
+      "x": 43.7,
+      "y": 60.0,
+      "z": 6.0
+    },
+    "hemisphere": "Right",
+    "AAL_index": 6,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 6,
+    "detector": 6
+  },
+  {
+    "channel": 13,
+    "coordinates": {
+      "x": 33.3,
+      "y": 67.0,
+      "z": 5.7
+    },
+    "hemisphere": "Right",
+    "AAL_index": 4,
+    "AAL_label": "SFG, Dorsolateral",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 7,
+    "detector": 3
+  },
+  {
+    "channel": 14,
+    "coordinates": {
+      "x": 50.0,
+      "y": 51.3,
+      "z": -8.3
+    },
+    "hemisphere": "Right",
+    "AAL_index": 12,
+    "AAL_label": "",
+    "source": 5,
+    "detector": 2,
+    "region": "Orbitofrontal Cortex"
+  },
+  {
+    "channel": 15,
+    "coordinates": {
+      "x": 42.7,
+      "y": 60.7,
+      "z": -7.7
+    },
+    "hemisphere": "Right",
+    "AAL_index": 6,
+    "AAL_label": "Middle Frontal Gyrus",
+    "source": 4,
+    "detector": 3,
+    "region":"Orbitofrontal Cortex"
+  },
+  {
+    "channel": 16,
+    "coordinates": {
+      "x": 33.7,
+      "y": 67.0,
+      "z": -7.7
+    },
+    "hemisphere": "Right",
+    "AAL_index": 4,
+    "AAL_label": "SFG, Dorsolateral",
+    "source": 5,
+    "detector": 10,
+    "region":"Orbitofrontal Cortex"
+  },
+  {
+    "channel": 17,
+    "coordinates": {
+      "x": 21.0,
+      "y": 62.0,
+      "z": 31.7
+    },
+    "hemisphere": "Right",
+    "AAL_index": 4,
+    "AAL_label": "SFG, Dorsolateral",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 9,
+    "detector": 4
+  },
+  {
+    "channel": 18,
+    "coordinates": {
+      "x": 11.0,
+      "y": 65.0,
+      "z": 32.0
+    },
+    "hemisphere": "Right",
+    "AAL_index": 20,
+    "AAL_label": "SFG, Medial",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 16,
+    "detector": 9
+  },
+  {
+    "channel": 19,
+    "coordinates": {
+      "x": -2.3,
+      "y": 63.0,
+      "z": 31.7
+    },
+    "hemisphere": "Left",
+    "AAL_index": 19,
+    "AAL_label": "SFG, Medial",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 9,
+    "detector": 12
+  },
+  {
+    "channel": 20,
+    "coordinates": {
+      "x": -14.3,
+      "y": 62.7,
+      "z": 32.7
+    },
+    "hemisphere": "Left",
+    "AAL_index": 3,
+    "AAL_label": "SFG, Dorsolateral",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 16,
+    "detector": 17
+  },
+  {
+    "channel": 21,
+    "coordinates": {
+      "x": 22.0,
+      "y": 69.7,
+      "z": 19.0
+    },
+    "hemisphere": "Right",
+    "AAL_index": 4,
+    "AAL_label": "SFG, Dorsolateral",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 11,
+    "detector": 9
+  },
+  {
+    "channel": 22,
+    "coordinates": {
+      "x": 11.7,
+      "y": 71.0,
+      "z": 19.3
+    },
+    "hemisphere": "Right",
+    "AAL_index": 20,
+    "AAL_label": "SFG, Medial",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 10,
+    "detector": 16
+  },
+  {
+    "channel": 23,
+    "coordinates": {
+      "x": -2.7,
+      "y": 68.7,
+      "z": 17.7
+    },
+    "hemisphere": "Left",
+    "AAL_index": 19,
+    "AAL_label": "SFG, Medial",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 16,
+    "detector": 15
+  },
+  {
+    "channel": 24,
+    "coordinates": {
+      "x": -15.0,
+      "y": 70.0,
+      "z": 19.0
+    },
+    "hemisphere": "Left",
+    "AAL_index": 3,
+    "AAL_label": "SFG, Dorsolateral",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 14,
+    "detector": 12
+  },
+  {
+    "channel": 25,
+    "coordinates": {
+      "x": 22.3,
+      "y": 72.0,
+      "z": 5.7
+    },
+    "hemisphere": "Right",
+    "AAL_index": 4,
+    "AAL_label": "SFG, Dorsolateral",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 10,
+    "detector": 10
+  },
+  {
+    "channel": 26,
+    "coordinates": {
+      "x": 11.7,
+      "y": 74.0,
+      "z": 5.7
+    },
+    "hemisphere": "Right",
+    "AAL_index": 20,
+    "AAL_label": "SFG, Medial",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 11,
+    "detector": 15
+  },
+  {
+    "channel": 27,
+    "coordinates": {
+      "x": -3.7,
+      "y": 71.0,
+      "z": 5.3
+    },
+    "hemisphere": "Left",
+    "AAL_index": 19,
+    "AAL_label": "SFG, Medial",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 14,
+    "detector": 14
+  },
+  {
+    "channel": 28,
+    "coordinates": {
+      "x": -15.3,
+      "y": 73.0,
+      "z": 5.3
+    },
+    "hemisphere": "Left",
+    "AAL_index": 3,
+    "AAL_label": "SFG, Dorsolateral",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 15,
+    "detector": 11
+  },
+  {
+    "channel": 29,
+    "coordinates": {
+      "x": 21.7,
+      "y": 71.0,
+      "z": -6.7
+    },
+    "hemisphere": "Right",
+    "AAL_index": 4,
+    "AAL_label": "SFG, Dorsolateral",
+    "source": 12,
+    "detector": 3,
+    "region": "Orbitofrontal Cortex"
+  },
+  {
+    "channel": 30,
+    "coordinates": {
+      "x": 11.3,
+      "y": 73.0,
+      "z": -7.7
+    },
+    "hemisphere": "Right",
+    "AAL_index": 22,
+    "AAL_label": "SFG, Medial Orbital",
+    "source": 13,
+    "detector": 10,
+    "region": "Orbitofrontal Cortex"
+  },
+  {
+    "channel": 31,
+    "coordinates": {
+      "x": -2.3,
+      "y": 70.0,
+      "z": -7.7
+    },
+    "hemisphere": "Left",
+    "AAL_index": 21,
+    "AAL_label": "SFG, Medial Orbital",
+    "source": 12,
+    "detector": 11,
+    "region": "Orbitofrontal Cortex"
+  },
+  {
+    "channel": 32,
+    "coordinates": {
+      "x": -14.7,
+      "y": 71.0,
+      "z": -8.7
+    },
+    "hemisphere": "Left",
+    "AAL_index": 3,
+    "AAL_label": "SFG, Dorsolateral",
+    "source": 13,
+    "detector": 18,
+    "region": "Orbitofrontal Cortex"
+  },
+  {
+    "channel": 33,
+    "coordinates": {
+      "x": -26.0,
+      "y": 56.7,
+      "z": 32.0
+    },
+    "hemisphere": "Left",
+    "AAL_index": 3,
+    "AAL_label": "SFG, Dorsolateral",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 17,
+    "detector": 12
+  },
+  {
+    "channel": 34,
+    "coordinates": {
+      "x": -37.7,
+      "y": 48.7,
+      "z": 32.3
+    },
+    "hemisphere": "Left",
+    "AAL_index": 5,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 24,
+    "detector": 17
+  },
+  {
+    "channel": 35,
+    "coordinates": {
+      "x": -46.7,
+      "y": 37.7,
+      "z": 32.3
+    },
+    "hemisphere": "Left",
+    "AAL_index": 5,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 17,
+    "detector": 20
+  },
+  {
+    "channel": 36,
+    "coordinates": {
+      "x": -26.7,
+      "y": 65.0,
+      "z": 19.7
+    },
+    "hemisphere": "Left",
+    "AAL_index": 3,
+    "AAL_label": "SFG, Dorsolateral",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 15,
+    "detector": 21
+  },
+  {
+    "channel": 37,
+    "coordinates": {
+      "x": -38.3,
+      "y": 57.7,
+      "z": 19.7
+    },
+    "hemisphere": "Left",
+    "AAL_index": 5,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 18,
+    "detector": 24
+  },
+  {
+    "channel": 38,
+    "coordinates": {
+      "x": -47.7,
+      "y": 45.3,
+      "z": 19.7
+    },
+    "hemisphere": "Left",
+    "AAL_index": 5,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 23,
+    "detector": 21
+  },
+  {
+    "channel": 39,
+    "coordinates": {
+      "x": -55.3,
+      "y": 31.7,
+      "z": 18.3
+    },
+    "hemisphere": "Left",
+    "AAL_index": 9,
+    "AAL_label": "IFG, Triangular Part",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 22,
+    "detector": 20
+  },
+  {
+    "channel": 40,
+    "coordinates": {
+      "x": -60.0,
+      "y": 19.3,
+      "z": 19.3
+    },
+    "hemisphere": "Left",
+    "AAL_index": 9,
+    "AAL_label": "IFG, Triangular Part",
+    "region": "Ventrolateral Prefrontal Cortex",
+    "source": 23,
+    "detector": 32
+  },
+  {
+    "channel": 41,
+    "coordinates": {
+      "x": -26.7,
+      "y": 68.0,
+      "z": 4.3
+    },
+    "hemisphere": "Left",
+    "AAL_index": 3,
+    "AAL_label": "SFG, Dorsolateral",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 14,
+    "detector": 22
+  },
+  {
+    "channel": 42,
+    "coordinates": {
+      "x": -39.0,
+      "y": 61.7,
+      "z": 4.3
+    },
+    "hemisphere": "Left",
+    "AAL_index": 5,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Frontopolar Prefrontal Cortex",
+    "source": 19,
+    "detector": 23
+  },
+  {
+    "channel": 43,
+    "coordinates": {
+      "x": -48.3,
+      "y": 49.7,
+      "z": 4.3
+    },
+    "hemisphere": "Left",
+    "AAL_index": 5,
+    "AAL_label": "Middle Frontal Gyrus",
+    "region": "Dorsolateral Prefrontal Cortex",
+    "source": 22,
+    "detector": 22
+  },
+  {
+    "channel": 44,
+    "coordinates": {
+      "x": -55.0,
+      "y": 36.7,
+      "z": 3.7
+    },
+    "hemisphere": "Left",
+    "AAL_index": 9,
+    "AAL_label": "IFG, Triangular Part",
+    "region": "Ventrolateral Prefrontal Cortex",
+    "source": 23,
+    "detector": 19
+  },
+  {
+    "channel": 45,
+    "coordinates": {
+      "x": -58.0,
+      "y": 23.7,
+      "z": 5.3
+    },
+    "hemisphere": "Left",
+    "AAL_index": 9,
+    "AAL_label": "IFG, Triangular Part",
+    "region": "Ventrolateral Prefrontal Cortex",
+    "source": 22,
+    "detector": 31
+  },
+  {
+    "channel": 46,
+    "coordinates": {
+      "x": -26.7,
+      "y": 67.0,
+      "z": -9.7
+    },
+    "hemisphere": "Left",
+    "AAL_index": 3,
+    "AAL_label": "SFG, Dorsolateral",
+    "source": 20,
+    "detector": 11,
+    "region": "Orbitofrontal Cortex"
+  },
+  {
+    "channel": 47,
+    "coordinates": {
+      "x": -38.3,
+      "y": 60.7,
+      "z": -10.3
+    },
+    "hemisphere": "Left",
+    "AAL_index": 5,
+    "AAL_label": "Middle Frontal Gyrus",
+    "source": 21,
+    "detector": 18,
+    "region": "Orbitofrontal Cortex"
+  },
+  {
+    "channel": 48,
+    "coordinates": {
+      "x": -47.7,
+      "y": 49.3,
+      "z": -10.7
+    },
+    "hemisphere": "Left",
+    "AAL_index": 11,
+    "AAL_label": "",
+    "source": 20,
+    "detector": 19,
+    "region": "Orbitofrontal Cortex"
+  }
+]
