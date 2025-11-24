@@ -1,9 +1,10 @@
 # Data
-/data/
+data/*
 
 # Results (e.g., figures, tables) (slow to generate, can be regenerated from source code)
 /results/
 /reports/
+/output/
 
 # Mac OS-specific storage files
 .DS_Store

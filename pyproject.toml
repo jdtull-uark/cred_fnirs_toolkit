@@ -17,6 +17,9 @@ classifiers = [
 ]
 requires-python = "~=3.10.0"
 
+[project.scripts]
+fnirs-toolkit = "cred_fnirs_toolkit.fnirs_toolkit_cli:main"
+
 
 [tool.ruff]
 line-length = 99
