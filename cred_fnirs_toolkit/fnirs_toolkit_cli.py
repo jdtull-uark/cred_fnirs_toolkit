@@ -455,7 +455,7 @@ Examples:
     try:
         process_snirf_files(args.input_dir, args.output_dir, args.mapping_file)
     except Exception as e:
-        print(f"❌ Fatal error: {e}")
+        print(f"Fatal error: {e}")
         import traceback
         traceback.print_exc()
         sys.exit(1)
