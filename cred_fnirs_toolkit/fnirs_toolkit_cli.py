@@ -4,6 +4,7 @@ fNIRS Toolkit CLI - Process SNIRF files and generate hemoglobin analysis reports
 """
 
 import argparse
+import difflib
 import json
 import os
 import re
@@ -164,6 +165,53 @@ def extract_source_detector(channel_name: str) -> str:
     return None
 
 
+def normalize_block_names(all_blocks: List[str], similarity_threshold: float = 0.8) -> Dict[str, str]:
+    """
+    Create a mapping of similar block names to standardized names using fuzzy matching
+    
+    Parameters:
+    -----------
+    all_blocks : list
+        List of all block names found across files
+    similarity_threshold : float
+        Minimum similarity ratio (0-1) to consider blocks as matches
+        
+    Returns:
+    --------
+    dict : {original_name: standardized_name} mapping
+    """
+    if not all_blocks:
+        return {}
+    
+    # Group similar blocks together
+    standardized_names = {}
+    used_blocks = set()
+    
+    for i, block1 in enumerate(all_blocks):
+        if block1 in used_blocks:
+            continue
+            
+        # This will be the standardized name (first occurrence)
+        standardized_names[block1] = block1
+        used_blocks.add(block1)
+        
+        # Find similar blocks
+        for block2 in all_blocks[i+1:]:
+            if block2 in used_blocks:
+                continue
+                
+            # Calculate similarity
+            similarity = difflib.SequenceMatcher(None, block1.lower(), block2.lower()).ratio()
+            
+            if similarity >= similarity_threshold:
+                # Map the similar block to the standardized name
+                standardized_names[block2] = block1
+                used_blocks.add(block2)
+                print(f"  ℹ Matching '{block2}' → '{block1}' (similarity: {similarity:.2%})")
+    
+    return standardized_names
+
+
 def load_channel_mapping(mapping_file: str) -> Dict[str, str]:
     """
     Load channel to brain region mapping from JSON file
@@ -257,6 +305,24 @@ def process_snirf_files(input_dir: str, output_dir: str, channel_mapping_file: s
     
     # Combine all results
     combined_df = pd.concat(all_averages, ignore_index=True)
+    
+    # Normalize block names using fuzzy matching
+    print("\nNormalizing block names...")
+    all_unique_blocks = combined_df['Block'].unique().tolist()
+    block_mapping = normalize_block_names(all_unique_blocks, similarity_threshold=0.8)
+    
+    # Apply the mapping to standardize block names
+    combined_df['Block'] = combined_df['Block'].map(block_mapping)
+    
+    # Update block_order with standardized names (remove duplicates while preserving order)
+    standardized_block_order = []
+    for block in block_order:
+        standardized = block_mapping.get(block, block)
+        if standardized not in standardized_block_order:
+            standardized_block_order.append(standardized)
+    block_order = standardized_block_order
+    
+    print(f"✓ Standardized to {len(block_order)} unique blocks\n")
     
     print(f"\n{'='*80}")
     print(f"Combined Results: {len(combined_df)} total measurements")
